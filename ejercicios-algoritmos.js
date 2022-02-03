@@ -74,7 +74,7 @@ console.log(`${array.join(' + ')} = ${sum}`); */
 
 //  10 * 9 * 8 * ... * 1
 
-function factorial(number) {
+/* function factorial(number) {
   if (number >= 0) {
     let result = 1;
     for (number; number > 0; number--) {
@@ -85,20 +85,62 @@ function factorial(number) {
     return 'Number must be an integer >= 0';
   }  
 }
-console.log(factorial(10));
+console.log(factorial(10)); */
 
 
 // Desafío de programación #7: Calcula la suma de todos los números impares mayores que 10 y menores que 30
 
+/* let result = 0;
+for (let i = 10; i < 30; i++) {
+  if (i % 2 !== 0) {
+    result += i;
+  }
+}
+console.log(result); */
+
 // Desafío de programación #8: Crea una función que convierta de Celsius a Fahrenheit
+
+/* function convertCelsiusToFahrenheit(temperature) {
+  if (temperature >= -273 ) return (temperature * 9 / 5 + 32);
+} */
 
 // Desafío de programación #9: Crea una función que convierta de Fahrenheit a Celsius
 
+/* function convertFahrenheitToCelsius(temperature) {
+  if (temperature >= -459.4 ) return ((temperature - 32) * 5 / 9);
+} */
+
 // Desafío de programación #10: Calcula la suma de todos los números en un array de números
+
+/* function addNumbersArray(numbers) {
+  let result = 0;
+  for (let number of numbers) {
+    result += number;
+  }
+  return result;
+} */
 
 // Desafío de programación #11: Calcula el promedio de todos los números en un array de números. (en una función)
 
+/* function calculateAverage(numbers) {
+  let sum = 0;
+  for (let number of numbers) {
+    sum += number;
+  }
+  return result / numbers.length;
+} */
+
 // Desafío de programación #12: Crea una función que reciba un array de números y devuelva un array conteniendo solo los números positivos
+
+/* function findUnsignedNumbers(numbers) {
+  let newArray = [];
+  for (let number of numbers) {
+    if (number >= 0) {
+      newArray.push(number);
+    }
+  }
+  return newArray;
+} */
 
 // Desafío de programación #13: Find the maximum number in an array of numbers
 
