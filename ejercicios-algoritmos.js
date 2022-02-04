@@ -144,6 +144,16 @@ console.log(result); */
 
 // Desafío de programación #13: Find the maximum number in an array of numbers
 
+function findMaximumNumber(numbers) {
+  let tempMax = numbers[0];
+  for (let i = 0; i < numbers.length; i++) {
+    if (tempMax < numbers[i]) {
+      tempMax = numbers[i];
+    }
+  }
+  return tempMax;
+}
+
 // Desafío de programación #14: Imprimir los primeros 10 dígitos de Fibonacci sin recursión
 
 // Fibonacci (lo buscan en google si no lo saben o no se acuerdan)
